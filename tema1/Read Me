@@ -1,0 +1,17 @@
+1.Cerinte:
+Creati o pagina html pentru textul dat. Adaugati toate tagurile HTML5 necesare pentru structurarea si sectionarea acestui text. Urmariti indicatiile din parantezele drepte (acestea trebuie sterse pe masura ce sun rezolvate taskurile). Atentie, unde scrie [inceput sectiune] nu e neaparat tagul section, ci poate fi oricare dintre tagurile section, article, aside (trebuie sa identificati voi care se potriveste cel mai bine). Observatie: in rezolvare nu e obligatoriu sa pastrati spatierea (randurile libere dintre texte) - acestea sunt doar pentru a delimita mai usor textul.
+Specificati si limba documentului.
+Folositi 4 taguri meta relevante, la alegere. (atentie, autorul e cel care a scris textul, nu webdesigner-ul. Cuvintele cheie si descrierea trebuie sa fie in conformitate cu continutul textului)
+Adaugati un title corespunzator continutului textului
+Adaugati un favicon (nu e necesar sa il si desenati, puneti doar tagul specific).
+Downloadati de pe internet o imagine care sa fie in tema paginii (cautati o imagine de dimensiuni mici) si inserati-o in pagina folosind tagul corespunzator. La final, se va uploada si imaginea. Scrieti un text alternativ si o descriere (atributul title) pentru imagine. Mai inserati un tag imagine, cu text alternativ, insa care sa aiba ca sursa un fisier inexistent. Ce observati? Scrieti intr-un comentariu observatia. Completati imaginea cu o descriere vizibila (deci nu in atributul title). In ce tag trebuie integrata imaginea?
+Introduceti un sistem de navigare, stil cuprins de carte. (Meniul va consta dintr-o lista neordonata de linkuri catre sectiunile textului. Nu folositi atributul name, al lui a - e o varianta invechita - puneti id-uri sectiunilor).
+Folositi tagul time, cu atributul datetime acolo unde e cazul.
+Evidentiati prin tagul html corespunzator adresa de la sfarsitul documentului.
+Identificati minim 3 taguri semantice (text-level semantics). Pentru tagurile semantice explicati intr-un comentariu de ce le-ati folosit. Nu folositi tagurile "doar ca sa fie", se vor puncta numai daca sunt folosite cu rolul indicat in standardul html5.
+E-mailul din text va fi scris ca link, folosindu-se Uri-Scheme-ul corespunzator.
+La finalul documentului adaugati un link, care duce catre inceputul documentului.
+Pagina trebuie sa fie valida din punct de vedere sintactic. Deci verificati cu validatorul html. Nu uitati sa puneti doctype-ul.
+
+2.In imagine, folderele sunt incadrate de un chenar, iar fisierele au numele ca text simplu. Linia intre doua entitati simbolizeaza faptul ca folderul de pe un nivel superior cuprinde folderul/fisierul de pe un nivel inferior. In fisierul a.html creati un tag img care sa refere prin link relativ imaginea imag. Adaugati in a.html si o imagine cu referinta externa. Adaugati pentru ambele imagini atributele alt si title cu continut relevant. In pagina b.html creati un link care sa duca la a.html prin care absoluta, un altul prin cale relativa si un al treilea link care duce catre google. In pagina b.html se va crea un iframe. In iframe se va deschide a.html. Faceti modificari in pagina a.html astfel incat daca se face click pe imagine cat timp a.html e deschis in iframe, imaginea se va deschide in fereastra curenta in locul lui b.html. Mai faceti un iframe in b.html in care incercati sa deschideti google.com. Ce observati? Incercati acum sa deschideti pagina facultatii. Care credeti ca e explicatia? In fisierul b.html adaugati un fisier video si unul audio.
+3.Realizati tabelele.
